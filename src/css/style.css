@@ -1,30 +1,30 @@
-* {
-    padding: 0;
-    margin: 0px;
+* {   
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 header {
-    width: 100%;
     background-color: rgb(60, 73, 30);
     display: flex;
-    justify-content: space-around;
-}
-
-.logo-imagem {
-    display: flex;
-    width: 80px;
-    height: 80px;
-    background-color: rgb(231, 231, 178);
-    border-radius: 40px;
-    margin: 20px;
-
-}
+    justify-content: space-between;
+    padding: 0%
+  }
 
 .container-logo {
     display: flex;
     align-items: center;
     margin: 20px 20px 10px 20px;
+}
+
+.logo-imagem {
+    display: flex;
+    max-width: 70px;
+    max-height: 70px;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+        align-items: center;
 }
 
 .logo-texto {
@@ -35,64 +35,56 @@ header {
     margin: 0px;
 }
 
-.menu li {
+.menu ul a {
     display: flex;
-    margin: 20px 20px 10px 20px;
-    justify-content: center;
-
-}
-
-.menu lu a {
-    font-size: 25px;
-    text-decoration: none;
+    text-decoration:none;
     color: #adefff;
-    text-transform: uppercase;
+    justify-content:left;
+    font-size: 20px;
+    }
 
-}
-
-body {
+* body {
     background-color: rgb(174, 183, 153);
+    padding-top: 1%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 1%;
 }
 .titulo {
     color: black;
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+        text-align: center;
     text-decoration: none;
-    margin: 20px 280px 10px 280px;
+    
 }
 
 .sub-titulo{
     color: black;
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+        text-align: center;
     text-decoration: none;
-    margin: 20px 280px 10px 280px;
+    
 }
  
 .texto-paragrafo-h4 {
     color: black;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
+       text-align: left;
     text-decoration: none;
-    margin: 20px 280px 10px 280px;
+    
 }
 
 .texto-paragrafo-li {
     font-size: 15px;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
+      text-align: justify;
     text-decoration: none;
-    margin: 20px 280px 10px 280px;
+    
 }
 .texto-paragrafo-p {
     font-size: 15px;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
+        text-align: justify;
     text-decoration: none;
-    margin: 20px 280px 10px 280px;
+    
 }
