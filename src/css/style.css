@@ -7,7 +7,7 @@
 header {
     background-color: rgb(60, 73, 30);
     display: flex;
-    text-size-adjust: flex;
+    text-size-adjust: auto;
     -ms-text-size-adjust: auto;
     justify-content: space-between;
     align-items: center;
@@ -91,4 +91,7 @@ header {
     font-size: 25px;
     text-decoration: none;
     text-align: justify;
+}
+@media(max-widht:800px){
+    
 }
