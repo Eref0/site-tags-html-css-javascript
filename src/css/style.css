@@ -1,9 +1,3 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-    -ms-text-size-adjust: auto;
-}
-
 header {
     background-color: rgb(60, 73, 30);
     display: flex;
@@ -18,7 +12,7 @@ header {
 
 .logo-img {
     display: flex;
-    align-items: center;   
+    align-items: center; 
 }
 
 .logo-imagem {
@@ -37,26 +31,109 @@ header {
     display: flex;
     text-decoration: none;
     color: rgb(247, 255, 228);
-    justify-content: left;
+    justify-content: center;
+    text-align: center;
     font-size: 20px;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    flex-wrap: nowrap;
 }
 
-* body {
+body {
     background-color: rgb(238, 250, 210);
     padding-top: 1%;
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 1%;
 }
-
 .titulo {
-    color: black;
+    color: rgb(238, 250, 210);
     font-size: 40px;
+    text-align: center;
+    justify-content:center;
+    text-decoration: none;
+    max-width: 95%;
+    padding-left: 10%;
+
+}
+.sub-titulo {
+    font-size: 30px;
     text-align: center;
     text-decoration: none;
 
 }
+.texto-paragrafo-h4 {
+    font-size: 25px;
+    text-align: left;
+    text-decoration: none;
+}
+.texto-paragrafo-li {
+    font-size: 15px;
+    text-align: justify;
+    text-decoration: none;
+    padding: 5px;
+}
+.texto-paragrafo-p {
+    font-size: 15px;
+    text-align: justify;
+    text-decoration: none;
 
+}
+.texto-h4-css {
+    font-size: 25px;
+    text-decoration: none;
+    text-align: justify;
+}
+
+@media screen and (max-width: 412px), (max-width: 375px), (max-width: 414px), (max-width: 280px){
+    header {
+        background-color: rgb(60, 73, 30);
+        display: flex;
+        font-size: 10%;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        border-radius: 35px;
+        padding: 0% 2% 0% 0%;
+        margin-right: 0%;
+    }
+
+    .titulo {
+        color: rgb(247, 255, 228);
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5%;
+        align-items: center;
+        width: 190px;
+        max-height: 100px;
+        padding: 0%;
+    }
+
+    .menu ul a {
+        display: flex;
+        text-decoration: none;
+        color: rgb(247, 255, 228);
+        justify-content: center;
+        text-align: center;
+        font-size: 12px;
+        padding-bottom: 10%;
+        padding-right: 0%;
+        flex-wrap: wrap;
+        max-width: 60px;
+}
+    .logo-img {
+        display: flex;
+        align-items: center; 
+        max-width: 60px;
+}
+body {
+    background-color: rgb(238, 250, 210);
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
 .sub-titulo {
     font-size: 30px;
     text-align: center;
@@ -83,15 +160,170 @@ header {
     text-decoration: none;
 
 }
-.elementos-css {
-    background-color: aquamarine;
-
-}
 .texto-h4-css {
     font-size: 25px;
     text-decoration: none;
     text-align: justify;
 }
-@media(max-widht:800px){
-    
+}
+
+@media screen and (max-width: 280px){
+    header {
+        background-color: rgb(60, 73, 30);
+        display: flex;
+        font-size: 10%;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        border-radius: 35px;
+        padding: 0% 2% 0% 0%;
+        margin-right: 0%;
+    }
+
+    .titulo {
+        color: rgb(247, 255, 228);
+        font-size: 15px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5%;
+        align-items: center;
+        width: 110px;
+        padding: 0%;
+    }
+
+    .menu ul a {
+        display: flex;
+        text-decoration: none;
+        color: rgb(247, 255, 228);
+        justify-content: center;
+        text-align: center;
+        font-size: 12px;
+        padding-bottom: 10%;
+        padding-right: 0%;
+        flex-wrap: wrap;
+        max-width: 60px;
+}
+    .logo-img {
+        display: flex;
+        align-items: center; 
+        max-width: 60px;
+}
+body {
+    background-color: rgb(238, 250, 210);
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+.sub-titulo {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.texto-paragrafo-h4 {
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.texto-paragrafo-li {
+    font-size: 15px;
+    text-align: justify;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.texto-paragrafo-p {
+    font-size: 15px;
+    text-align: justify;
+    text-decoration: none;
+
+}
+.texto-h4-css {
+    font-size: 20px;
+    text-decoration: none;
+    text-align: justify;
+}
+}
+@media screen and (max-width: 280px), (max-width: 540px){
+    header {
+        background-color: rgb(60, 73, 30);
+        display: flex;
+        font-size: 10%;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        border-radius: 35px;
+        padding: 0% 2% 0% 0%;
+        margin-right: 0%;
+    }
+
+    .titulo {
+        color: rgb(247, 255, 228);
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5%;
+        align-items: center;
+        width: 200px;
+        padding: 0%;
+    }
+
+    .menu ul a {
+        display: flex;
+        text-decoration: none;
+        color: rgb(247, 255, 228);
+        justify-content: center;
+        text-align: center;
+        font-size: 12px;
+        padding-bottom: 10%;
+        padding-right: 5%;
+        flex-wrap: wrap;
+        max-width: 60px;
+}
+    .logo-img {
+        display: flex;
+        align-items: center; 
+        max-width: 60px;
+}
+body {
+    background-color: rgb(238, 250, 210);
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+.sub-titulo {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.texto-paragrafo-h4 {
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.texto-paragrafo-li {
+    font-size: 15px;
+    text-align: justify;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.texto-paragrafo-p {
+    font-size: 15px;
+    text-align: justify;
+    text-decoration: none;
+
+}
+.texto-h4-css {
+    font-size: 20px;
+    text-decoration: none;
+    text-align: justify;
+}
 }
