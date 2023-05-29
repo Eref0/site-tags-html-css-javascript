@@ -133,7 +133,7 @@ body {
     }
     body {
         background-color: rgb(238, 250, 210);
-        padding-top: 8%;
+        padding-top: 10%;
         padding-right: 5%;
         padding-left: 4%;
         padding-bottom: 1%;
@@ -258,7 +258,7 @@ body {
         margin-right: 0%;
     }
     body {
-        padding-top: 12%;
+        padding-top: 14%;
         padding-right: 5%;
         padding-left: 4%;
         padding-bottom: 1%;
@@ -328,6 +328,12 @@ body {
         padding: 0% 2% 0% 0%;
         margin-right: 0%;
     }
+    body {
+        padding-top: 12%;
+        padding-right: 5%;
+        padding-left: 4%;
+        padding-bottom: 1%;
+    }
     .titulo {
         color: rgb(238, 250, 210);
         font-size: 14px;
@@ -393,7 +399,7 @@ body {
         margin-right: 0%;
     }
     body {
-        padding-top: 13%;
+        padding-top: 16%;
         padding-right: 5%;
         padding-left: 4%;
         padding-bottom: 1%;
