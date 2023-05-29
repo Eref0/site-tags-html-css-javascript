@@ -293,6 +293,27 @@ body {
         max-height: 40px;
         align-items: center;
     }
+      .sub-titulo {
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .texto-paragrafo-h4 {
+        font-size: 18px;
+        text-align: left;
+        text-decoration: none;
+    }
+    .texto-paragrafo-li {
+        font-size: 12px;
+        text-align: justify;
+        text-decoration: none;
+        padding: 5px;
+    }
+    .texto-paragrafo-p {
+        font-size: 12px;
+        text-align: justify;
+        text-decoration: none;
+    }
     
 }
 
