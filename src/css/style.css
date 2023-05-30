@@ -13,6 +13,7 @@ header {
     right: 0;
     left:0;
     z-index:1;
+    box-shadow: 0 5px 10px rgb(162, 180, 120);
 }
 
 .logo-img {
@@ -38,7 +39,7 @@ header {
     color: rgb(247, 255, 228);
     justify-content: center;
     text-align: center;
-    font-size: 13px;
+    font-size: 0.8rem;
     padding-bottom: 5%;
     padding-right: 5%;
     flex-wrap: nowrap;
@@ -49,11 +50,13 @@ header {
 }
 
 body {
-    background-color: rgb(238, 250, 210);
-    padding-top: 8%;
-    padding-right: 5%;
-    padding-left: 4%;
-    padding-bottom: 1%;
+    background-color: rgb(255, 255, 255);
+    padding: 5.45% 4% 0% 4%;
+}
+main {
+    background-color: rgb(204, 228, 173);
+    padding-right: 2%;
+    justify-content: center;
 }
 .titulo {
     color: rgb(238, 250, 210);
@@ -71,40 +74,24 @@ body {
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
-.texto-paragrafo-h4 {
+.texto-paragrafo-h4, .texto-h4-css {
     font-size: 25px;
     text-align: left;
     text-decoration: none;
     padding-bottom: 1%;
     padding-left: 0;
 }
-.texto-paragrafo-li {
+.texto-paragrafo-li, .texto-paragrafo-p, .elementos-css li {
     font-size: 15px;
     text-align: justify;
     text-decoration: none;
     padding-bottom: 1%;
     width: fit-content;
 }
-.texto-paragrafo-p {
-    font-size: 15px;
-    text-align: justify;
-    text-decoration: none;
-    padding-bottom: 1%;
-}
-.texto-h4-css {
-    font-size: 25px;
-    text-decoration: none;
-    text-align: justify;
-    padding-bottom: 1%;
-}
-.elementos-css li {
-    font-size: 15px;
-    text-align: justify;
-    text-decoration: none;
-    padding-bottom: 1%;
-}
+
 .section-box-img {
     display: flex;
 }
@@ -151,11 +138,11 @@ body {
         color: rgb(247, 255, 228);
         justify-content: center;
         text-align: center;
-        font-size: 12px;
+        font-size: 0.8rem;
         padding-bottom: 5%;
         padding-right: 5%;
         flex-wrap: nowrap;
-        width: 60px;
+        width: 65px;
     }
 }
 @media (max-width:945px){
@@ -189,11 +176,11 @@ body {
         color: rgb(247, 255, 228);
         justify-content: center;
         text-align: center;
-        font-size: 12px;
+        font-size: 0.8rem;
         padding-bottom: 5%;
         padding-right: 5%;
         flex-wrap: nowrap;
-        width: 60px;
+        width: 65px;
     }
 }
 
@@ -228,7 +215,7 @@ body {
         color: rgb(247, 255, 228);
         justify-content: center;
         text-align: center;
-        font-size: 12px;
+        font-size: 0.7rem;
         padding-bottom: 5%;
         padding-right: 5%;
         flex-wrap: nowrap;
@@ -277,7 +264,7 @@ body {
         color: rgb(247, 255, 228);
         justify-content: center;
         text-align: center;
-        font-size: 11px;
+        font-size: 0.7rem;
         padding-bottom: 5%;
         padding-right: 5%;
         flex-wrap: nowrap;
@@ -303,16 +290,11 @@ body {
         text-align: left;
         text-decoration: none;
     }
-    .texto-paragrafo-li {
+    .texto-paragrafo-li, .texto-paragrafo-p, .elementos-css li {
         font-size: 12px;
         text-align: justify;
         text-decoration: none;
         padding: 5px;
-    }
-    .texto-paragrafo-p {
-        font-size: 12px;
-        text-align: justify;
-        text-decoration: none;
     }
     
 }
@@ -348,7 +330,7 @@ body {
         color: rgb(247, 255, 228);
         justify-content: center;
         text-align: center;
-        font-size: 10px;
+        font-size: 0.6rem;
         padding-bottom: 5%;
         padding-right: 5%;
         flex-wrap: nowrap;
@@ -374,16 +356,11 @@ body {
         text-align: left;
         text-decoration: none;
     }
-    .texto-paragrafo-li {
+    .texto-paragrafo-li, .texto-paragrafo-p, .elementos-css li {
         font-size: 12px;
         text-align: justify;
         text-decoration: none;
         padding: 5px;
-    }
-    .texto-paragrafo-p {
-        font-size: 12px;
-        text-align: justify;
-        text-decoration: none;
     }
 }
 
@@ -418,7 +395,7 @@ body {
         color: rgb(247, 255, 228);
         justify-content: center;
         text-align: center;
-        font-size: 10px;
+        font-size: 0.6rem;
         padding-bottom: 5%;
         padding-right: 5%;
         flex-wrap: nowrap;
@@ -444,16 +421,11 @@ body {
         text-align: left;
         text-decoration: none;
     }
-    .texto-paragrafo-li {
+    .texto-paragrafo-li, .texto-paragrafo-p, .elementos-css li {
         font-size: 12px;
         text-align: justify;
         text-decoration: none;
         padding: 5px;
-    }
-    .texto-paragrafo-p {
-        font-size: 12px;
-        text-align: justify;
-        text-decoration: none;
     }
     .section-box-img{        
         display: flex;
@@ -500,7 +472,7 @@ body {
         color: rgb(247, 255, 228);
         justify-content: center;
         text-align: center;
-        font-size: 10px;
+        font-size: 0.5rem;
         padding-bottom: 5%;
         padding-right: 10%;
         flex-wrap: nowrap;
@@ -526,16 +498,11 @@ body {
         text-align: left;
         text-decoration: none;
     }
-    .texto-paragrafo-li {
+    .texto-paragrafo-li, .texto-paragrafo-p, .elementos-css li {
         font-size: 12px;
         text-align: justify;
         text-decoration: none;
         padding: 5px;
-    }
-    .texto-paragrafo-p {
-        font-size: 12px;
-        text-align: justify;
-        text-decoration: none;
     }
     .box-img {
         display: flex;
@@ -574,7 +541,7 @@ body {
         color: rgb(247, 255, 228);
         justify-content: center;
         text-align: center;
-        font-size: 8px;
+        font-size: 0.5rem;
         padding-bottom: 5%;
         padding-right: 5%;
         flex-wrap: nowrap;
@@ -601,17 +568,13 @@ body {
         text-align: left;
         text-decoration: none;
 }
-.texto-paragrafo-li {
+.texto-paragrafo-li, .texto-paragrafo-p, .elementos-css li {
         font-size: 10px;
         text-align: justify;
         text-decoration: none;
         padding: 5px;
 }
-.texto-paragrafo-p {
-        font-size: 10px;
-        text-align: justify;
-        text-decoration: none;
-}
+
 .section-box-img {
     display: flex;
 }
